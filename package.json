@@ -11,6 +11,7 @@
     "dev-full": "concurrently \"npm run dev\" \"npm run python-server\""
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "13.5.1",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -56,8 +57,11 @@
     "framer-motion": "^10.16.16",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
+    "mammoth": "^1.9.1",
     "next": "^13.5.11",
     "next-themes": "^0.3.0",
+    "openai": "^5.8.2",
+    "pdf-parse": "^1.1.1",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-day-picker": "^8.10.1",
@@ -74,5 +78,8 @@
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.5"
   }
 }
